@@ -1,0 +1,14 @@
+class planet():
+   
+    def _init_(self, name, gasses,moons,rings):
+      self.name = name
+      self.gasses = gasses
+      self.moons= moons
+      self.rings= rings
+    def mooncount(self):
+        print("Count of moons",self.moons)
+    def gas(self):
+        print("maximum atm gasses",self.gasses)
+
+myplanet=planet('Earth','Nitrogen Oxygen',1,'No')
+myplanet.mooncount()
