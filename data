@@ -1,0 +1,44 @@
+package practicePackage;
+
+class Planets {
+	int moons,rings;
+	String name;
+	
+	Planets (String name, int moons,int rings) {
+		this.name = name;
+		this.moons = moons;
+    this.rings = rings;
+	}
+	
+	void display() {
+		System.out.println(name + " name " + moons + " moons"+rings+"rings.");
+	}
+}
+
+class SolarSystem {
+	Planets[planets]
+  };
+	
+	SolarSystem() {
+	
+	planets = new Planets[6];
+	planets[0] = new Planets("Mercury", 0);
+	planets[1] = new Planets("Venus", 0);
+	planets[2] = new Planets("Earth", 1);
+	planets[4] = new Planets("Jupiter", 79);
+	planets[5] = new Planets("Saturn", 83);
+	planets[6] = new Planets("Uranus", 27);
+	}
+	void display() {
+		for (int i = 0; i < planets.length; i++ ) {
+			planets*.display();
+		}
+	}
+}
+
+class MilkyWay {
+	public static void main(String args]) {
+		SolarSystem solarSystem = new SolarSystem();
+		solarSystem.display();
+	}
+}
